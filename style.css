@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* Custom CSS */
+body {
+    background-color: #0d0d18; /* Replace with your hex or color name */
+}
+.row .col-xxl-12 img {
+    padding-bottom: 0px;
+    left: auto;
+    padding-left: 0px;
+    margin-right: 15px;
+}
+.container .navbar.navbar-expand-lg.navbar-light {
+    background-color: #0D0D18;
+}
+
+
+.col-xxl-12 div img {
+}
+
+.row .col-xxl-12 h3 {
+    margin-top: 60px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.trending-scroll img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.trending-scroll img:hover {
+  transform: scale(1.07);
+ 
+}
+.col-xxl-12 .trending-scroll img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.row .col-xxl-12 .trending-scroll {
+    padding-left: 30px;
+}
+.col-xxl-12 .row .col-xxl-12.featured {
+    background-image: url(Images/Featured.jpg);
+    min-width: 1298px;
+    min-height: 448px;
+}
+.container .row .col-xxl-12.ext {
+    height: 700px;
+    padding-top: 130px;
+}
+.row .col-xxl-12.featured .btn.btn-outline-success.login {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-top: 65px;
+}
+.col-xxl-12.ext .row .col-xxl-12.featured {
+    color: #FFFFFF;
+    font-size: xx-large;
+    background-image: url(Images/Featured.png);
+    margin-top: -30px;
+}
+.container-fluid.header {
+
+}
+
+.col-lg-4 .footer-brand span {
+    color: #FF6C1A;
+}
+
+
+.row.g-4 .col-6.col-lg-2 .footer-links {
+    color: #4A4B70;
+}
+.carousel-inner .carousel-item.active .d-block.w-100 {
+    opacity: 1;
+}
+
+
+.row.g-4 .col-6.col-lg-2 .footer-heading {
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.container .footer-bottom.d-flex.flex-wrap.justify-content-between.align-items-center.gap-3 span {
+    color: #4A4B70;
+    margin-top: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-left: -5px;
+}
+.row.g-4 .col-lg-4 .mt-3.mb-4 {
+    color: #4A4B70;
+}
+.navbar-nav.mx-auto .nav-item .nav-link {
+    color: #FFFFFF;
+    font-size: small;
+    padding-right: 30px;
+}
+.row .col-xxl-12.featured img {
+    margin-top: 342px;
+    margin-left: 18px;
+}
+.row .col-xxl-12.featured.trending-scroll img {
+    margin-right: -7px;
+
+}
+.container .row.g-4 .col-lg-4 {
+    margin-bottom: 20px;
+}
+.col-6.col-lg-2 .footer-links .footer-links {
+    padding-bottom: 10px;
+}
+.row .col-xxl-12.outcont .container.incont {
+    background-image: url(Images/Accessebility.png);
+    width: 1298px;
+    height: 355px;
+}
+.row .col-xxl-12.accessability h2 {
+    color: #FFFFFF;
+    padding-top: 45px;
+    padding-left: 60px;
+}
+.row .col-xxl-12.accessability p {
+    color: #4A4B70;
+    padding-left: 60px;
+    padding-top: 15px;
+}
+.row .col-xxl-12.accessability.trending-scroll img {
+    margin-left: 60px;
+}
+.row .col-xxl-12.accessability.trending-scroll img {
+    margin-right: -40px;
+}
+
+
+
+
+
+.container .row .col-xxl-12.outcont {
+    height: 530px;
+}
+.container.incont .row .col-xxl-12.accessability {
+    margin-left: -10px;
+}
+.row .col-xxl-12 .cont1.trending-scroll {
+    width: 1920px;
+    padding-right: 25px;
+    padding-left: 34px;
+    text-align: center;
+}
+.cont1.trending-scroll .row .col-xxl-4.cn2 {
+    text-align: center;
+}
+
+.row .col-xxl-4 img {
+    margin-right: 15px;
+}
+img {
+  max-width: 100%;
+}
+
+/* Scrollable rows — hide scrollbar everywhere */
+.trending-scroll::-webkit-scrollbar { display: none; }
+.trending-scroll { -ms-overflow-style: none; scrollbar-width: none; }
